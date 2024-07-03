@@ -8,8 +8,9 @@ body {
 }
 .left-section {
   flex: 1;
-
-  margin-left: 140px;
+  display: flex;
+  justify-content: center;
+  padding-right: 150px;
 }
 .logo {
   width: 500px;
@@ -111,6 +112,7 @@ a {
   justify-content: space-around;
   margin-left: 20px;
   margin-top: 25px;
+  background-color: lightgreen;
 }
 .footer p {
   color: rgb(151, 150, 150);
@@ -144,6 +146,9 @@ a {
   .right-section {
     padding-top: 4px;
   }
+  .left-section {
+    padding-right: 370px;
+  }
   .sub-title {
     font-size: 30px;
   }
@@ -161,8 +166,6 @@ a {
   .main-section {
     display: flex;
     flex-direction: column;
-
-    justify-content: center;
   }
   .logo {
     width: 64px;
@@ -180,7 +183,9 @@ a {
     margin-top: 0;
     padding-top: 0px;
   }
-
+  .left-section {
+    padding-right: 370px;
+  }
   .footer {
     display: flex;
     justify-content: center;
